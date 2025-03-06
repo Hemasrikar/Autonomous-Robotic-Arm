@@ -34,8 +34,15 @@ To reset and visualize the environment:
 
 ```python
 env.reset()
+```
+- Resets the arm's position and initializes the environment state.
+- This function ensures that training starts from a consistent state.
+
+```python
 env.plot_state()
 ```
+- Plots the robotic arm and object in their current state.
+- Helps in debugging and understanding how the arm is positioned.
 
 To run a full training session:
 
