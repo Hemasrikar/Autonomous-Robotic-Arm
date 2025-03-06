@@ -27,6 +27,7 @@ from throwing_environment import ThrowingEnvironmentBase
 
 env = ThrowingEnvironmentBase(file_name="2023-2024", q_size=[10, 10, 10, 10])
 ```
+The Q-table is a lookup table where the algorithm stores the estimated rewards for different actions and states. In this case, the size [10, 10, 10, 10] suggests a 4D table, meaning there are four state variables, each discretized into 10 bins.
 
 ### Running the Simulation
 To reset and visualize the environment:
