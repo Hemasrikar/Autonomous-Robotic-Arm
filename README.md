@@ -43,6 +43,13 @@ To run a full training session:
 env.train(1000)  # Train for 1000 epochs
 env.summary()
 ```
+- Runs 1000 training iterations (epochs) to optimize the throwing strategy.
+- Each epoch:
+  - Selects an action based on the Q-table (or randomly at first).
+  - Simulates the result of the action (arm movement & object throw).
+  - Updates the Q-table based on the reward received.
+  - Repeats until the model improves its throwing accuracy.
+
 
 To animate the simulation:
 
