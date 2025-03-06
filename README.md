@@ -58,7 +58,4 @@ env.plot_simulate(duration=5, reset=True)
 - Extend the environment for multi-objective tasks.
 - Improve visualization and UI elements.
 
-## License
-This project is open-source and available under the MIT License.
-
 
