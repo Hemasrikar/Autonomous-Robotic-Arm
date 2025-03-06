@@ -49,10 +49,9 @@ To animate the simulation:
 ```python
 env.plot_simulate(duration=5, reset=True)
 ```
-
-## File Structure
-- `throwing_environment.py`: Main environment class and physics simulation.
-- `README.md`: Documentation.
+- Creates an animation of the robotic arm performing a throw.
+- duration=5 means the animation will run for 5 seconds.
+- reset=True ensures that the environment starts fresh before the animation.
 
 ## Future Improvements
 - Implement deep reinforcement learning (DQN or PPO) for better training.
